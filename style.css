@@ -1,10 +1,11 @@
 :root {
-    --bg-color: #fff;
-    --primary-color: #ee2a10;
-    --secondary-color: #1f1f1f;
-    --primary-text-color: #000;
-    --secondary-text-color: #666;
-    --muted-text-color: #DDD;
+    --bg-color:  #737373;
+    --primary-color: #a64dff;
+    --secondary-color: #f2e6ff;
+    --primary-text-color: #fff;
+    --secondary-text-color:  #f2f2f2;
+    --muted-text-color: #8c8c8c;
+    --muted-secondary-text-color: #ddccff;
     --max-width: 860px;
     --font: 'Ubuntu';
 }
@@ -225,14 +226,13 @@ h5 {
 
 
 .tag {
-    font-weight: lighter;
     display: inline-block;
     margin-bottom: 10px;
     padding: 4px 10px;
     white-space: nowrap;
     color: var(--bg-color);
     border-radius: 1rem;
-    background-color: var(--secondary-text-color);
+    background-color: var(--muted-secondary-text-color);
 }
 
 .icon {
@@ -243,7 +243,7 @@ h5 {
 .icon i {
     font-size: 24px;
     margin: auto;
-    color: var(--secondary-text-color);
+    color: var(--muted-text-color);
 }
 
 .text-bold {
